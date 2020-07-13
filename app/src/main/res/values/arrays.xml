@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>经典模式</item>
+        <item>字母表</item>
+        <item>10以内数字</item>
+        <item>自定义</item>
+    </string-array>
+</resources>

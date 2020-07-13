@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2048nobtn"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/StartBtn"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="250sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="200sp"
+        android:layout_marginBottom="20sp"
+        android:background="@android:color/transparent"
+        android:onClick="start"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/ScoreBtn"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="250sp"
+        android:layout_height="140sp"
+        android:layout_marginBottom="20sp"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/QuitBtn"
+        style="@android:style/Widget.Holo.Light.Button.Toggle"
+        android:layout_width="250sp"
+        android:layout_height="130sp"
+        android:layout_marginBottom="20sp"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+</LinearLayout>

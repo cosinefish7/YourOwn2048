@@ -1,0 +1,2 @@
+include ':app', ':SlidingMenu-master'
+rootProject.name='slideTest2'
